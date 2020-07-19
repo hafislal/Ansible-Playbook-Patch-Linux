@@ -4,5 +4,7 @@
     
   tasks:
   
- - name: upgrade all packages
-  yum: name=* state=latest
+  - name: update the system
+    yum:
+      name: "*"
+      state: latest
