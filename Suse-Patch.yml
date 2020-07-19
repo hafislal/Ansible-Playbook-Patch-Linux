@@ -1,0 +1,9 @@
+---
+- name: Upgrade all packages to the latest version
+  hosts: all
+    
+  tasks:
+  
+- zypper:
+    name: '*'
+    state: latest
