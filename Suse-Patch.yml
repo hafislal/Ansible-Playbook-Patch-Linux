@@ -5,6 +5,6 @@
   tasks:
   
 - name: Update all packages on OpenSUSE/SUSE Linux
-            zypper:
-                    name: '*'
-                    state: latest
+  zypper:
+      name: '*'
+      state: latest
