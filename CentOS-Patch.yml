@@ -1,5 +1,5 @@
 ---
-- name: Upgrade all packages to the latest version
+- name: Upgrade RPM packages to the latest version
   hosts: all
     
   tasks:
